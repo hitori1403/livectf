@@ -10,7 +10,7 @@ pub mod challenge;
 // TODO: change TEXT to VARCHAR as TEXT is slow
 // TODO: remove all the getters they are so useless 
 // remember to change this to a .env file, the credentials should be stored in environment variable rather than hard-coded
-const DB_HOST: &str = "localhost";
+const DB_HOST: &str = "postgres";
 const DB_USERNAME: &str = "test";
 const DB_PASSWORD: &str = "WisHBrAdhOtalMaNOste";
 const DB_DATABASE_NAME: &str = "livectf";

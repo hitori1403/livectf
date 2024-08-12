@@ -69,7 +69,7 @@ async fn webserver_loop(slaves: NotifierComms, db_conn: database::DbConnection) 
                 web::route().to(web_interface::not_found)
             )
     })
-    .bind("127.0.0.1:31337")?
+    .bind("0.0.0.0:31337")?
     .run()
     .await
 
